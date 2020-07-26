@@ -1,0 +1,20 @@
+[package]
+authors = ["winebarrel <sugawara@winebarrel.jp>"]
+edition = "2018"
+name = "barbell"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0"
+chrono = "0.4"
+futures = "0.3"
+getopts = "0.2"
+hdrhistogram = "6.0"
+mysql_async = "*"
+serde = {version = "1.0", features = ["derive"]}
+serde_json = "1.0"
+# thiserror = "1.0"
+tokio = {version = "0.2", features = ["full"]}
+uuid = {version = "0.8", features = ["v4"]}
